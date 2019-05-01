@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4197b805-6853-4e7c-b571-c941f3d89f37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hackerrank/easy_9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/arrays_A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/arrays_B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/arrays_C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/arrays_D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/arrays_E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/arrays_F.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/arrays_G.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_G.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_H.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_I.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_J.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_K.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_for_M.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_while_A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_while_B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_while_C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_while_D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/cycle_while_E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/functions_A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/functions_B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/functions_C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/if_else.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/if_else_A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/if_else_B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/if_else_C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/if_else_D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/if_else_E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/input_output_A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/input_output_B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/input_output_C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/input_output_D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Informatics/input_output_E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../easy_15.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../easy_16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../easy_17.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../easy_18.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../easy_19.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../easy_20.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../medium_1.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1727909116">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="3137" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="3137" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1213467972">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <marker date="1555354105327" expanded="true" signature="125:130" ph="..." />
+                <marker date="1555354105327" expanded="true" signature="246:251" ph="..." />
+                <marker date="1555354105327" expanded="true" signature="373:378" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <marker date="1555351210110" expanded="true" signature="59:263" ph="..." />
+                <marker date="1555351210110" expanded="true" signature="288:373" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todoback/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tasks/models.py" />
+        <option value="$PROJECT_DIR$/api/admin.py" />
+        <option value="$PROJECT_DIR$/todoback/urls.py" />
+        <option value="$PROJECT_DIR$/api/models.py" />
+        <option value="$PROJECT_DIR$/api/serializers.py" />
+        <option value="$PROJECT_DIR$/api/views.py" />
+        <option value="$PROJECT_DIR$/todoback/settings.py" />
+        <option value="$PROJECT_DIR$/api/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="714" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="todo-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-back" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-back" type="462c0819:PsiDirectoryNode" />
+              <item name="todoback" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4197b805-6853-4e7c-b571-c941f3d89f37" name="Default Changelist" comment="" />
+      <created>1555318646847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555318646847</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27831325" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tasks/models.py" />
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoback/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myenv/lib/python3.7/site-packages/rest_framework/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="473" selection-start-line="473" selection-end-line="473" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1555354105327" expanded="true" signature="125:130" ph="..." />
+            <marker date="1555354105327" expanded="true" signature="246:251" ph="..." />
+            <marker date="1555354105327" expanded="true" signature="373:378" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoback/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1555351210110" expanded="true" signature="59:263" ph="..." />
+            <marker date="1555351210110" expanded="true" signature="288:373" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

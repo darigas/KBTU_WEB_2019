@@ -1,0 +1,32 @@
+.list-group-item {
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  color: #004466;
+  font-weight: 500;
+}
+
+.btn-info {
+  width: 100%;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  font-family: "Georgia Header";
+  font-size: 20px;
+}
+
+input[type=text] {
+  color: #004466;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: "Georgia Header";
+  font-size: 20px;
+  width: 100%;
+}
+
+.list_name {
+  padding-top: 50px;
+}

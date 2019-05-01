@@ -1,0 +1,28 @@
+<ng-container>
+    <div class="container">
+      <button type="button" class="btn btn-info" (click)="navigateBack()">Go Back</button>
+      <div class="task_detail">
+        <li class="list-group-item">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">{{taskList.id}}</li>
+            <li class="list-group-item">{{taskList.name}}</li>
+          </ul>
+        </li>
+      </div>
+      <div class="update_list">
+        <li class="list-group-item">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+              <input type="text" class="form-control" [(ngModel)]="taskList.name">
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-warning btn-sm" (click)="updateTask(task)">Update</button>
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-danger btn-sm" (click)="deleteTask(task)" style="margin-left: 5px;">Delete</button>
+            </li>
+          </ul>
+        </li>
+      </div>
+    </div>
+  </ng-container>

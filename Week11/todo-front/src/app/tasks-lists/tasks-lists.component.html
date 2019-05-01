@@ -1,0 +1,14 @@
+<div class="container">
+  <li class="list-group-item" *ngFor = "let taskList of tasksLists">
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item">{{taskList.id}}</li>
+      <li class="list-group-item">{{taskList.name}}</li>
+      <li class="list-group-item">
+        <a routerLink="/tasks_lists/{{taskList.id}}/"><button type="button" class="btn btn-info">Detail</button></a>
+      </li>
+      <li class="list-group-item">
+        <a routerLink="/tasks_lists/{{taskList.id}}/tasks"><button type="button" class="btn btn-info">Tasks</button></a>
+      </li>
+    </ul>
+  </li>
+</div>

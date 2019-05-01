@@ -1,0 +1,37 @@
+<ng-container>
+    <div class="container">
+      <button type="button" class="btn btn-info" (click)="navigateBack()">Go Back</button>
+      <div class="task_detail">
+        <li class="list-group-item">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">{{task.id}}</li>
+            <li class="list-group-item">{{task.name}}</li>
+            <li class="list-group-item">{{task.created_at | date:'yyyy-MM-dd HH:mm:ss'}}</li>
+            <li class="list-group-item">{{task.due_on | date:'yyyy-MM-dd HH:mm:ss'}}</li>
+            <li class="list-group-item">{{task.status}}</li>
+          </ul>
+        </li>
+      </div>
+      <div class="update_task">
+        <li class="list-group-item">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+              <input type="text" class="form-control" [(ngModel)]="task.name">
+            </li>
+            <li class="list-group-item">
+              <input type="text" class="form-control" [(ngModel)]="task.due_on">
+            </li>
+            <li class="list-group-item">
+              <td> <input type="text" class="form-control" [(ngModel)]="task.status">
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-warning btn-sm" (click)="updateTask(task)">Update</button>
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-danger btn-sm" (click)="deleteTask(task)" style="margin-left: 5px;">Delete</button>
+            </li>
+          </ul>
+        </li>
+      </div>
+    </div>
+  </ng-container>

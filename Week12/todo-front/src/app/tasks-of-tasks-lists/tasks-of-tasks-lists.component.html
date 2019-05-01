@@ -1,0 +1,46 @@
+<ng-container>
+  <div class="container">
+  <button type="button" class="btn btn-info" (click)="navigateBack()">Go Back</button>
+    <div class="tasks">
+      <li class="list-group-item">
+        <ul class="list-group list-group-horizontal" *ngFor="let task of tasks">
+          <li class="list-group-item">{{task.id}}</li>
+          <li class="list-group-item">{{task.name}}</li>
+          <li class="list-group-item">{{task.created_at | date:'yyyy-MM-dd HH:mm:ss'}}</li>
+          <li class="list-group-item">{{task.due_on | date:'yyyy-MM-dd HH:mm:ss'}}</li>
+          <li class="list-group-item">{{task.status}}</li>
+          <li class="list-group-item">
+            <a routerLink="/tasks/{{task.id}}/"><button type="button" class="btn btn-info">Details</button></a>
+          </li>
+        </ul>
+      </li>
+    </div>
+    <div class="new_task">
+      <li class="list-group-item">
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" [(ngModel)]="taskName">
+              </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-group">
+              <label for="dueon">Due On</label>
+              <input type="text" class="form-control" id="dueon" [(ngModel)]="task_due_on">
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-group">
+                <label for="status">Status</label>
+                <input type="text" class="form-control datepicker" id="status" [(ngModel)]="taskStatus">
+            </div>
+          </li>
+          <li class="list-group-item">
+            <button type="submit" class="btn btn-info" (click)="createTask()">Create</button>
+          </li>
+        </ul>
+      </li>
+    </div>
+  </div>
+</ng-container>

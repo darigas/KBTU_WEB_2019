@@ -1,0 +1,13 @@
+<div class="container">
+  <li class="list-group-item">
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item">{{task.id}}</li>
+      <li class="list-group-item">{{task.name}}</li>
+      <li class="list-group-item">{{task.created_at}}</li>
+      <li class="list-group-item">{{task.due_on}}</li>
+      <li class="list-group-item">{{task.status}}</li>
+    </ul>
+  </li>
+  <a routerLink="/tasks_lists/"><button type="button" class="btn btn-info">All tasks lists</button></a>
+  <button type="button" class="btn btn-info" (click)="navigateBack()">Back</button>
+</div>
