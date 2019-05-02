@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4197b805-6853-4e7c-b571-c941f3d89f37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../KBTU_WEB_QUIZ/quiz/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KBTU_WEB_QUIZ/quiz/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../KBTU_WEB_QUIZ/quiz/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KBTU_WEB_QUIZ/quiz/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../easy_15.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../easy_16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../easy_17.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../easy_18.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../easy_19.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../easy_20.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../medium_1.py" beforeDir="false" />
-    </list>
+    <list default="true" id="4197b805-6853-4e7c-b571-c941f3d89f37" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +128,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">

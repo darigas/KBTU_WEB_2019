@@ -40,9 +40,8 @@ export class TasksOfTasksListsComponent implements OnInit {
 
   createTask(){
     if(this.taskName!='' && this.task_created_at!='' && this.task_due_on!='' && this.taskStatus!='') {
-      this.provider.createTask(this.taskList.id, this.taskName, this.task_created_at, this.task_due_on, this.taskStatus).then(res => {
+      this.provider.createTask(this.id, this.taskName, this.task_created_at, this.task_due_on, this.taskStatus).then(res => {
         this.tasks.push(res);
-        console.log('I AM HERE')
       });
     }
   }
