@@ -1,0 +1,32 @@
+.list-group-item {
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  color: #004466;
+  font-weight: 500;
+}
+
+.container {
+  font-family: "Georgia Header";
+  font-size: 20px;
+}
+
+.btn-info {
+  width: 100%;
+  font-size: 20px;
+}
+
+.btn-warning {
+    width: 100%;
+    font-size: 20px;
+    color: #004466;
+    font-weight: 500;
+}
+
+.btn-danger {
+    width: 100%;
+    font-size: 20px;
+    color: #004466;
+    font-weight: 500;
+    margin-left: 10px;
+}

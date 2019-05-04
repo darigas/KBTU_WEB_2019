@@ -1,0 +1,29 @@
+<ng-container>
+  <div class="container">
+    <div class="new_list">
+      <li class="list-group-item">
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <label for="list_name" style="margin-right:5px;">Name</label>
+            <input type="text" class="form-control" [(ngModel)]="name" placeholder="Create new task list">
+          </li>
+          <li class="list-group-item">
+            <button type="submit" class="btn btn-info" (click)="createTaskList()" style="margin-bottom:5px;">Create</button>
+          </li>
+        </ul>
+      </li>
+    </div>
+    <li class="list-group-item" *ngFor = "let taskList of tasksLists">
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">{{taskList.id}}</li>
+        <li class="list-group-item">{{taskList.name}}</li>
+        <li class="list-group-item">
+          <a routerLink="/tasks_lists/{{taskList.id}}/"><button type="button" class="btn btn-info">Detail</button></a>
+        </li>
+        <li class="list-group-item">
+          <a routerLink="/tasks_lists/{{taskList.id}}/tasks"><button type="button" class="btn btn-info">Tasks</button></a>
+        </li>
+      </ul>
+    </li>
+  </div>
+</ng-container>
