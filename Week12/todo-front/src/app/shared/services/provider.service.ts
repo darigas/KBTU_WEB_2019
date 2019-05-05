@@ -32,10 +32,6 @@ export class ProviderService extends MainService {
     return this.delete(`http://localhost:8000/api/tasks_lists/${id}/`, {});
   }
 
-  deleteTaskList2(taskList: TaskList): Promise<any> {
-    return this.delete(`http://localhost:8000/api/tasks_lists/${taskList.id}`, {});
-  }
-
   updateTasksListsDetail(taskList: TaskList): Promise<TaskList> {
     return this.put(`http://localhost:8000/api/tasks_lists/${taskList.id}/`, {
       name: taskList.name

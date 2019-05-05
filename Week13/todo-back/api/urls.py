@@ -8,6 +8,6 @@ urlpatterns = [
     path('tasks_lists/<int:pk>/tasks/', tasks_list),
     path('tasks/<int:pk>/', task_detail),
     path('login/', login),
-    path('logout', logout),
+    path('logout/', logout),
     path('register/', register),
 ]

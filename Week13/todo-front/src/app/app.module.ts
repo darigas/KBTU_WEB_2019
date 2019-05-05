@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, ClassProvider } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
@@ -7,11 +7,13 @@ import { TasksListsComponent } from './tasks-lists/tasks-lists.component';
 import { TasksListsDetailComponent } from './tasks-lists-detail/tasks-lists-detail.component';
 import { TasksOfTasksListsComponent } from './tasks-of-tasks-lists/tasks-of-tasks-lists.component';
 import { TasksDetailComponent } from './tasks-detail/tasks-detail.component';
-import {AppRoutingModule} from './app-routing.module';
-import {HttpClientModule} from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HttpClient, HttpErrorResponse } from "@angular/common/http";
-import {ProviderService} from './shared/services/provider.service';
+import { ProviderService } from './shared/services/provider.service';
 import { FormsModule } from '@angular/forms';
+import {AuthInterceptor} from './AuthInterceptor';
+import { BaseComponent } from './base/base.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { FormsModule } from '@angular/forms';
     TasksListsDetailComponent,
     TasksOfTasksListsComponent,
     TasksDetailComponent,
+    BaseComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,11 @@ import { FormsModule } from '@angular/forms';
   ],
   providers: [
     ProviderService,
+    <ClassProvider> {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true
+    }
   ],
   bootstrap: [AppComponent]
 })

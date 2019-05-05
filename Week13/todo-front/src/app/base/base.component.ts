@@ -4,17 +4,16 @@ import { ProviderService } from '../shared/services/provider.service';
 import { Location } from '@angular/common';
 
 @Component({
-  selector: 'app-tasks-lists',
-  templateUrl: './tasks-lists.component.html',
-  styleUrls: ['./tasks-lists.component.css']
+  selector: 'app-base',
+  templateUrl: './base.component.html',
+  styleUrls: ['./base.component.css']
 })
-
-export class TasksListsComponent implements OnInit {
+export class BaseComponent implements OnInit {
 
   public tasksLists: TaskList[] = [];
   public name: string = '';
-  public username: string = '';
-  public password: string = '';
+  public username: string;
+  public password: string;
   public logged = false;
 
   constructor(
@@ -26,12 +25,10 @@ export class TasksListsComponent implements OnInit {
     const token = localStorage.getItem('token');
     if(token){
       this.logged = true;
-      console.log(token)
     }
     if(this.logged){
       this.provider.getTasksLists().then(res => {
         this.tasksLists = res;
-        console.log(token)
       });
     }
   }
@@ -49,25 +46,24 @@ export class TasksListsComponent implements OnInit {
   }
 
   login(){
-   if(this.username !== '' && this.password !== ''){
+   if(this.username!=='' && this.password!==''){
      this.provider.login(this.username, this.password).then(res => {
        localStorage.setItem('token', res.token);
        this.logged = true;
        this.provider.getTasksLists().then(result => {
          this.tasksLists = result;
-         console.log(res.token)
        });
      })
    }
    else {
      console.log('ERROR')
    }
- }
+  }
 
- logout(){
+  logout(){
    this.provider.logout().then(res => {
      localStorage.clear();
      this.logged = false;
    });
- }
+  }
 }

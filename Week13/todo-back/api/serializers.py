@@ -2,25 +2,27 @@ from rest_framework import serializers
 from .models import TaskList, Task
 from django.contrib.auth.models import User
 
+
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('id', 'username', 'email')
+        fields = ('id', 'username')
 
     def create(self, validated_data):
-        password = validated_data.get("password")
+        password = validated_data.get('password')
         user = User.objects.create_user(**validated_data)
         user.set_password(password)
         return user
+
 
 class TaskListSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     name = serializers.CharField(max_length=255)
     owner = UserSerializer(read_only=True)
+
     class Meta:
         model = TaskList
         fields = '__all__'
-
 
     def create(self, validated_data):
         task_list = TaskList(**validated_data)
@@ -28,6 +30,7 @@ class TaskListSerializer(serializers.Serializer):
         return task_list
 
     def update(self, instance, validated_data):
+        instance.id = validated_data.get('id', instance.id)
         instance.name = validated_data.get('name', instance.name)
         instance.save()
         return instance

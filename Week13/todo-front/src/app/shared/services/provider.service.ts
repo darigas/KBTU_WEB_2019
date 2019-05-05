@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { MainService } from './main.service';
-import { TaskList, Task, TaskSimple, TaskNew } from '../models/model';
+import { TaskList, Task, TaskSimple, TaskNew, AuthResponse } from '../models/model';
 import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 
 @Injectable({
@@ -12,7 +12,6 @@ export class ProviderService extends MainService {
   constructor(http: HttpClient) {
     super(http);
   }
-
 
   getTasksLists(): Promise<TaskList[]> {
     return this.get(`http://127.0.0.1:8000/api/tasks_lists/`, {});
@@ -70,5 +69,17 @@ export class ProviderService extends MainService {
 
   deleteTask(task: Task): Promise<any> {
     return this.delete(`http://localhost:8000/api/tasks/${task.id}/`, {});
+  }
+
+  login(username: any, password: any): Promise<AuthResponse>{
+    return this.post(`http://localhost:8000/api/login/`, {
+      username: username,
+      password: password
+    });
+  }
+
+  logout(): Promise <any>{
+    return this.post(`http://localhost:8000/api/logout/`, {
+    });
   }
 }

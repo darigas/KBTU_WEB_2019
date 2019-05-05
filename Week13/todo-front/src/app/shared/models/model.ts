@@ -25,3 +25,7 @@ export interface TaskNew {
     status: string,
     task_list: TaskList
 }
+
+export interface AuthResponse {
+  token: string
+}

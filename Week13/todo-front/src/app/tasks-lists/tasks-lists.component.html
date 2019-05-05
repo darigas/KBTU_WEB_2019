@@ -1,5 +1,13 @@
+<!-- <app-base></app-base> -->
 <ng-container>
-  <div class="container">
+  <div class="form" *ngIf="!logged">
+    <div>Create new TaskList</div>
+    <span><input type="text"class="form-control" [(ngModel)]="username"></span>
+    <span><input type="text"class="form-control" [(ngModel)]="password"></span>
+    <button class="btn btn-primary" type="submit" (click)="login()">Login</button>
+  </div>
+  <div class="container" *ngIf='logged'>
+    <button class="btn btn-primary" type="submit" (click)="logout()">LogOut</button>
     <div class="new_list">
       <li class="list-group-item">
         <ul class="list-group list-group-horizontal">
