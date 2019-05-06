@@ -1,18 +1,19 @@
 from django.shortcuts import render, render_to_response
-from .serializers import TaskListSerializer, TaskSerializer, SimpleTaskSerializer, UserSerializer
+from .serializers import TaskListSerializer, TaskSerializer, SimpleTaskSerializer, UserSerializer, \
+    UserRegisterSerializer
 from .models import Task, TaskList
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.authtoken.models import Token
+from django.contrib.auth import logout
 
 
 @api_view(['GET', 'POST'])
 def list_of_tasks_lists(request):
     if request.method == "GET":
         tasks_list = TaskList.objects.filter(owner=request.user)
-        print(tasks_list[1].owner)
         serializer = TaskListSerializer(tasks_list, many=True)
         return Response(serializer.data)
         # return render_to_response('api/tasks_lists', {'data': serializer.data})
@@ -103,13 +104,14 @@ def login(request):
 
 @api_view(['POST'])
 def logout(request):
-    request.auth.delete()
+    # request.auth.delete()
+    request.user.auth_token.delete()
     return Response(status=status.HTTP_200_OK)
 
 
 @api_view(['POST'])
 def register(request):
-    serializer = UserSerializer(data=request.data)
+    serializer = UserRegisterSerializer(data=request.data)
     if serializer.is_valid():
         user = serializer.save()
         user.set_password(serializer.data['password'])

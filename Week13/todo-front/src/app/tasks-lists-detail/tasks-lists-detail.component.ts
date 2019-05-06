@@ -37,12 +37,6 @@ export class TasksListsDetailComponent implements OnInit {
     });
   }
 
-  deleteTaskList2(taskList: TaskList) {
-    this.provider.deleteTaskList2(taskList).then(()=> {
-      this.location.back();
-    });
-  }
-
   deleteTaskList(){
     this.provider.deleteTaskList(this.taskList.id).then(()=> {
       this.location.back();

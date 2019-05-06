@@ -16,6 +16,8 @@ export class TasksListsComponent implements OnInit {
   public username: string = '';
   public password: string = '';
   public logged = false;
+  public newUsername: any = '';
+  public newPassword: any = '';
 
   constructor(
     private provider: ProviderService,
@@ -59,9 +61,6 @@ export class TasksListsComponent implements OnInit {
        });
      })
    }
-   else {
-     console.log('ERROR')
-   }
  }
 
  logout(){
@@ -69,5 +68,19 @@ export class TasksListsComponent implements OnInit {
      localStorage.clear();
      this.logged = false;
    });
+ }
+
+ register(){
+   if(this.newUsername !== '' && this.newPassword !== ''){
+     this.provider.register(this.newUsername, this.newPassword).then(res => {
+       localStorage.setItem('token', res.token);
+       this.logged = true;
+       this.newUsername = '';
+       this.newPassword = '';
+       this.provider.getTasksLists().then(result => {
+         this.tasksLists = result;
+       });
+     })
+   }
  }
 }

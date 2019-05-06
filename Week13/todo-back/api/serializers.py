@@ -68,3 +68,8 @@ class TaskSerializer(serializers.Serializer):
         instance.save()
         return instance
 
+
+class UserRegisterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('username', 'password')

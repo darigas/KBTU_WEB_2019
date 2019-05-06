@@ -1,4 +1,4 @@
-.list-group-item {
+.list-group-item, label {
   width: 100%;
   text-align: center;
   top: 50%;
@@ -11,9 +11,11 @@
   font-size: 20px;
   height: 100%;
   width: 100%;
+  font-family: "Georgia Header";
+  font-size: 20px;
 }
 
-.container {
+.container, label {
   font-family: "Georgia Header";
   font-size: 20px;
 }
@@ -29,4 +31,15 @@ input[type=text] {
 
 .list_name {
   padding-top: 50px;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+  margin: 35px;
+}
+
+input[type=password] {
+  margin-bottom: 10px;
 }

@@ -31,10 +31,6 @@ export class ProviderService extends MainService {
     return this.delete(`http://localhost:8000/api/tasks_lists/${id}/`, {});
   }
 
-  deleteTaskList2(taskList: TaskList): Promise<any> {
-    return this.delete(`http://localhost:8000/api/tasks_lists/${taskList.id}`, {});
-  }
-
   updateTasksListsDetail(taskList: TaskList): Promise<TaskList> {
     return this.put(`http://localhost:8000/api/tasks_lists/${taskList.id}/`, {
       name: taskList.name
@@ -71,7 +67,7 @@ export class ProviderService extends MainService {
     return this.delete(`http://localhost:8000/api/tasks/${task.id}/`, {});
   }
 
-  login(username: any, password: any): Promise<AuthResponse>{
+  login(username: any, password: any): Promise<AuthResponse> {
     return this.post(`http://localhost:8000/api/login/`, {
       username: username,
       password: password
@@ -80,6 +76,13 @@ export class ProviderService extends MainService {
 
   logout(): Promise <any>{
     return this.post(`http://localhost:8000/api/logout/`, {
+    });
+  }
+
+  register(username: any, password: any): Promise<AuthResponse> {
+    return this.post(`http://localhost:8000/api/register/`, {
+      username: username,
+      password: password
     });
   }
 }
