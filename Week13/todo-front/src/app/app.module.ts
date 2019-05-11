@@ -12,8 +12,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { ProviderService } from './shared/services/provider.service';
 import { FormsModule } from '@angular/forms';
-import {AuthInterceptor} from './AuthInterceptor';
-import { BaseComponent } from './base/base.component';
+import { AuthInterceptor } from './AuthInterceptor';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,6 @@ import { BaseComponent } from './base/base.component';
     TasksListsDetailComponent,
     TasksOfTasksListsComponent,
     TasksDetailComponent,
-    BaseComponent,
   ],
   imports: [
     BrowserModule,
